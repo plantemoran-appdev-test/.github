@@ -5,4 +5,6 @@ Default files will be used for any repository owned by the account that does not
 
 For more information, please see [Creating a default community health file][gh-creating-default-comm-health-file].
 
+<!-- reference urls -->
+
 [gh-creating-default-comm-health-file]: [https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file]
