@@ -7,4 +7,4 @@ For more information, please see [Creating a default community health file][gh-c
 
 <!-- reference urls -->
 
-[gh-creating-default-comm-health-file]: [https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file]
+[gh-creating-default-comm-health-file]: https://help.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file
