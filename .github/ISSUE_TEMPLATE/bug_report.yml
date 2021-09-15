@@ -1,14 +1,12 @@
 name: '🐛 Bug Report'
 description: We broke something, again.
 labels: ['bug', 'needs triage :exclamation:']
-title: '[Bug]: '
+title: '[Bug]: <enter title here>'
 body:
   - type: markdown
     attributes:
       value: |
-        **Thanks for reporting an issue!** Please make sure you read our [issue guidelines](https://github.com/theos/theos/blob/master/.github/CONTRIBUTING.md) first, then fill out the fields below.
-
-        If you’re unsure whether the issue you’re having is a bug, you can post in [Discussions](https://github.com/theos/theos/discussions) instead.
+        **Thanks for reporting an issue!** Please make sure you read our contributing guidelines first, then fill out the fields below.
 
   - type: textarea
     attributes:
@@ -19,7 +17,7 @@ body:
         3. Type ...
         4. …
         5. Click ...
-        4. See error
+        6. See error
     validations:
       required: true
 
