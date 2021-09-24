@@ -1,15 +1,9 @@
 # Contributing to this repository
 
+See the [README](README.md) to get an overview of the project
 To provide feedback, please follow the guidance in this document.
 Please note that these are just guidelines, not rules.
 Use your best judgment and feel free to propose changes to anything in this repository, including the contribution guidelines.
-
-- [Contributing to this repository](#contributing-to-this-repository)
-  - [Creating Issues](#creating-issues)
-  - [Recommended setup for contributing](#recommended-setup-for-contributing)
-  - [Documentation styleguide](#documentation-styleguide)
-  - [Commit messages](#commit-messages)
-  - [Pull requests](#pull-requests)
 
 ## Creating Issues
 
@@ -28,26 +22,48 @@ Use your best judgment and feel free to propose changes to anything in this repo
 - Use syntax-highlighted examples liberally
 - Write one sentence per line.
 
+## Making changes
+
+- Create a [feature/topic branch][topic-branch] named appropriately (`<initials>-issue-<issue#>[-additional-info]`)
+  - e.g. `mob-issue-123`
+  - e.g. `daf-issue-456-for-hotfix`
+- Once you are ready with your changes, don't forget to self review to quicken the review process :zap:.
+  - [ ] Confirm that the changes meet the user experience and goals laid out in the issue/requirements/etc.
+  - [ ] You've **tested the changes locally** to confirm desired functionality.
+  - [ ] Ensure any documentation within the code is updated (README, CONTRIBUTING, etc.)
+  - [ ] Review the changes for grammar, spelling, etc.
+  - [ ] All code, markdown, etc. is properly formatted, linted, etc.
+  - [ ] Unit tests are added/updated for changed methods.
+  - [ ] Unit tests are added for all new methods.
+  - [ ] All unit tests pass.
+  - [ ] etc.
+
 ## Commit messages
 
-- Use the present tense: "Change ...", not "Changed ..."
-- Use the imperative mood: "Change ...", not "Changes ..."
+- Use the present tense ("Add feature" not "Added feature")
+- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 - Limit the first line to 72 characters or less
-- Reference issues and pull requests liberally
+- Reference issues and pull requests liberally after the first line
 
 ## Pull requests
 
 Pull requests serve as the primary mechanism by which contributions are proposed and accepted.
-Create a [feature/topic branch][topic-branch] and send a pull request to the `develop` branch from the feature branch.
-For additional guidance, read through the [GitHub Flow Guide][github-flow-guide].
 
-Be prepared to address feedback on your pull request and iterate if necessary.
+- Open a pull request from your feature branch.
+  - For additional guidance, read through the [GitHub Flow Guide][github-flow-guide].
+- Don't forget to link the PR to the issue you are solving.
+- Be prepared to address feedback on your pull request and iterate if necessary.
+- We may ask for changes to be made before a PR can be merged, either using [suggested changes][gh-suggested-changes] or pull request comments.
+  - You can apply suggested changes directly through the UI.
+  - You can make any other changes in your local branch and push the changes when complete.
+- As you update your PR and apply changes, reply to each conversation that required your attention.
 
 <!-- reference urls -->
 
 [gh-issues-new]: https://github.com/plantemoran-appdev-test/.github/issues/new/choose
 [gh-issues-search]: https://github.com/plantemoran-appdev-test/.github/issues
 [gh-md-syntax-guidance]: https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[gh-suggested-changes]: https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/incorporating-feedback-in-your-pull-request
 [git]: https://git-scm.com/
 [github-flow-guide]: https://guides.github.com/introduction/flow/
 [topic-branch]: https://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#Topic-Branches
