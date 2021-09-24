@@ -5,14 +5,6 @@ To provide feedback, please follow the guidance in this document.
 Please note that these are just guidelines, not rules.
 Use your best judgment and feel free to propose changes to anything in this repository, including the contribution guidelines.
 
-- [Contributing to this repository](#contributing-to-this-repository)
-  - [Creating Issues](#creating-issues)
-  - [Recommended setup for contributing](#recommended-setup-for-contributing)
-  - [Documentation styleguide](#documentation-styleguide)
-  - [Making changes](#making-changes)
-  - [Commit messages](#commit-messages)
-  - [Pull requests](#pull-requests)
-
 ## Creating Issues
 
 - You can [create an issue][gh-issues-new], but before doing that please read the bullets below and include as many details as possible.
