@@ -17,7 +17,9 @@ This repo contains 2 types of issue templates:
 ### Included Templates
 
 - Bug Report
+  - This template will be used when creating bugs.
 - Feature Request
+  - This template will be used when requesting a new feature or enhancement.
 
 ## Organization Profile
 
