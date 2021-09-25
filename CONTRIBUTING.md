@@ -1,9 +1,9 @@
 # Contributing to this repository
 
-See the [README](README.md) to get an overview of the project
+See the [README](README.md) to get an overview of the project.
 To provide feedback, please follow the guidance in this document.
-Please note that these are just guidelines, not rules.
-Use your best judgment and feel free to propose changes to anything in this repository, including the contribution guidelines.
+
+Use your best judgment and feel free to propose changes to anything in this repository, including these contribution guidelines.
 
 ## Creating Issues
 
@@ -12,9 +12,11 @@ Use your best judgment and feel free to propose changes to anything in this repo
 
 ## Recommended setup for contributing
 
+**NOTE:** Always be sure to use **_only_** approved versions from the [AppDev Workstation Configuration][repo--appdev-workstation-configuration] guide.
+
 - Install [Git][git] and clone this repository
 - Install [VS Code][vscode]
-- Install all recommended VS Code extensions (included in /.vscode/extensions.json)
+  - Install all recommended VS Code extensions (included in /.vscode/extensions.json)
 
 ## Documentation styleguide
 
