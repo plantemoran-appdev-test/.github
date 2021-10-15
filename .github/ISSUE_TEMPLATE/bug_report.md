@@ -30,4 +30,4 @@ If applicable, add screenshots to help explain your problem.
 - Version [e.g. 94.0.4606.61]
 
 **Additional context**
-Add any other context you can provide about the problem here.
+Add any other context you can provide about the problem here...
