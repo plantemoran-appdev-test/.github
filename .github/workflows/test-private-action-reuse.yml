@@ -1,0 +1,14 @@
+name: Test Private Action (Reuse)
+
+on:
+  workflow_call:
+
+jobs:
+  test-private-action:
+    name: Test Private Action Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Private Action Step
+        uses: plantemoran-appdev-test/mob--test-private-shared-workflows--provider@v1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
